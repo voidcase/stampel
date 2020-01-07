@@ -19,4 +19,4 @@ stam.py 'git add {}.py; git commit -m "{}"'
 > bar, barified the baring
 ```
 
-That's it. The whole thing is 18 lines so just read the code if you want to know more.
+That's it. It's like 18 lines so just read the code if you want to know more.
