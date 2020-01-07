@@ -13,7 +13,7 @@ def show_help():
         and in that hole there was a tree\n' \
         )
 
-if __name__ == '__main__':
+def run():
     if len(argv) != 2:
         show_help()
         exit(1)
@@ -29,3 +29,6 @@ if __name__ == '__main__':
             system(cmd)
     except (EOFError, KeyboardInterrupt):
         pass
+
+if __name__ == '__main__':
+    run()
