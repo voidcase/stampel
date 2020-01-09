@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 from pathlib import Path
 
-VERSION = '0.1.0'
+VERSION = '0.1.1'
 HERE = Path(__file__).parent
 README = (HERE / 'README.md').read_text()
 
