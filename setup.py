@@ -6,19 +6,19 @@ HERE = Path(__file__).parent
 README = (HERE / 'README.md').read_text()
 
 setup(
-    name='stampy',
+    name='stampel',
     version=VERSION,
     description='Commandline tool for quickly entering multiple similar commands.',
     long_description=README,
     long_description_content_type='text/markdown',
     license='MIT',
-    url='https://github.com/voidcase/stampy',
-    download_url='https://github.com/voidcase/stampy/archive/v{}.tar.gz'.format(VERSION),
-    py_modules='stampy',
+    url='https://github.com/voidcase/stampel',
+    download_url='https://github.com/voidcase/stampel/archive/v{}.tar.gz'.format(VERSION),
+    py_modules='stampel',
     keywords=['data-entry', 'utility', 'commandline'],
     entry_points={
             'console_scripts': [
-                'stampy=stampy.stam:run'
+                'stampel=stampel.stampel:run'
             ]
         },
     classifiers=[
