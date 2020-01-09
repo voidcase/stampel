@@ -7,7 +7,7 @@ from argparse import ArgumentParser, RawDescriptionHelpFormatter
 
 
 EXAMPLE = 'Do like this: \n \
-        $ stam.py "echo and in that {} there was a {}"\n \
+        $ stampel "echo and in that {} there was a {}"\n \
         > bog, hole\n \
         and in that bog there was a hole\n \
         > hole, tree\n \
