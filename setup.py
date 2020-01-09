@@ -14,7 +14,8 @@ setup(
     license='MIT',
     url='https://github.com/voidcase/stampel',
     download_url='https://github.com/voidcase/stampel/archive/v{}.tar.gz'.format(VERSION),
-    py_modules='stampel',
+    py_modules=['stampel'],
+    packages=find_packages(),
     keywords=['data-entry', 'utility', 'commandline'],
     entry_points={
             'console_scripts': [
